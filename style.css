@@ -1,0 +1,58 @@
+body{
+    background: rgb(18,18,18);
+}
+#gameCanvas{
+    background: rgb(0, 225, 255);
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 580px;
+}
+div{
+    text-align: center;
+    padding: 40px 0px 30px 0px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+#btn-easy{
+    position: fixed;
+    top:200px;
+    left: 100px;
+    background: rgb(8, 224, 55);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+}
+#btn-hard{
+    position: fixed;
+    top:250px;
+    border: none;
+    left: 100px;
+    background: rgb(168, 0, 0);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+}
+#btn-new{
+    position: fixed;
+    top:300px;
+    border: none;
+    left: 100px;
+    background: rgb(168, 0, 0);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+}
+#btn-hard:hover, #btn-easy:hover, #btn-hard:focus, #btn-easy:focus{
+    outline: none;
+    background: gray;
+}
